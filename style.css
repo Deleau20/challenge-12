@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(21, 19, 19);
+}
+
+#image{
+    text-align: center;
+    position: relative;
+    top: 10rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #image {
+    top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #image {
+    top: 3rem;
+  }
+}
